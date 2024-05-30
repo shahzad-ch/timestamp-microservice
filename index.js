@@ -29,7 +29,7 @@ app.get("/api", (req, res) => {
   const unix = Date.now();
   const utc = new Date;
   
-  res.json({uinx: unix, utc: utc})
+  res.json({unix: unix, utc: utc})
 
 })
 
